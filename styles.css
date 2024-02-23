@@ -1,35 +1,43 @@
 body {
-    margin: 0; 
-    font-family: 
-    Helvetica; }
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-header {
-    text-align: center; }
+#add-task-container {
+    width: 350px;
+    padding: 20px 10px;
+    background: black;
+    border-radius: 20px;
+    box-shadow: 0 0 3px;
 
-section {
-    background: #FAFAFA; 
-    padding-top: 60px; }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-div.header {
-    padding: 15px;}
+input {
+    flex: 5;
+    margin-right: 10px;
+    border-radius: 1.2rem;
+    padding: 10px;
 
-div.header h2{
-    margin: 0; 
-    font-size: 20px; 
-    color: black; 
-    display: inline-block;}
+}
 
-.box .header .date {
-    float: right; 
-    margin: 0;}
+#add-task {
 
-.box {
-    background: white; width: 600px; 
-	margin: auto; margin-bottom: 60px; 
-	margin-top: 60px; border: 1px solid #EDEEEE;}
+    flex: 1;
+    font-size: 1.2rem ;
+    padding: 5px;
+    background-color: aquamarine;
+    color: white 2px;
 
-img {
-    width: 100%;}
+}
 
-div.description { 
-    padding: 15px; color: black;}
+#add-task:hover {
+    background-color: blueviolet;
+    color: wheat;
+}
+

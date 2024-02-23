@@ -1,60 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<title>My Photo Feed</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bootstrap Template</title>
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Font Awesome -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+	<!-- Custom CSS -->
+	<link href="styles.css" rel="stylesheet">
 </head>
+
 <body>
-	<header>
-		<h1>Breathe Code Photo Feed</h1>
-	</header>
-	<section>
-		<div class="box">
-			<div class="header">
-				<h2>My First Photo</h2>
-				<p class="date"><strong>1/14/24</strong></p>
-			</div>
-			<div class="img"><img src="https://dogsbestlife.com/wp-content/uploads/2022/06/cutest-dog-breeds-scaled-e1655990275393.jpeg">
-			</div>
-			<div class="description">The loyalty of a dog is a pure and unbreakable bond, a silent promise of companionship and protection for life. <strong> #K9.</strong>
-			</div>
+
+	<!-- Your HTML content here -->
+	<div class="container">
+
+		<div id="add-task-container">
+			<input type="text" placeholder="Enter Task" id="input-task">
+			<button id="add-task"><i class="fa-solid fa-plus"></i></button>
 		</div>
-		<div class="box">
-			<div class="header">
-				<h2>My Second Photo</h2>
-				<p class="date"><strong>1/14/24</strong></p>
-			</div>
-			<div class="img"><img src="https://www.petlandflorida.com/wp-content/uploads/2019/09/Petland_Florida_Bichon_Frise-768x512.jpg">
-			</div>
-			<div class="description">A dog's loyalty knows no bounds, steadfastly beside their human through every joy and sorrow.<strong> #K9.</strong>
-			</div>
-		</div>
-		<div class="box">
-			<div class="header">
-				<h2>My Third Photo</h2>
-				<p class="date"><strong>1/14/24</strong></p>
-			</div>
-			<div class="img"><img src="https://www.petlandflorida.com/wp-content/uploads/2019/09/Petland_Florida_Golden_retriever-1-768x510.jpg">
-			</div>
-			<div class="description">In the eyes of a loyal dog, their human is their universe, unwavering in devotion and love.<strong> #K9.</strong>
-			</div>
-		</div>
-		<div class="box">
-			<div class="header">
-				<h2>My Fourth Photo</h2>
-				<p class="date"><strong>1/14/24</strong></p>
-			</div>
-			<div class="img"><img src="https://www.petlandflorida.com/wp-content/uploads/2019/09/Petland_Florida_Cockapoo-768x576.jpg">
-			</div>
-			<div class="description">Unconditional and enduring, a dog's loyalty is a timeless testament to the depth of their fidelity and trust.<strong> #K9.</strong>
-			</div>
-		</div>
-	</section>
-	<footer>
-	</footer>
+
+		<div id="task-container"></div>
+
+	</div>
+
+
+
+
+
+
+
+
+	<!-- Bootstrap Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+	<!-- Font Awesome Script -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+	<!-- Your JavaScript -->
+	<script src="app.js"></script>
 </body>
+
 </html>
-
-
