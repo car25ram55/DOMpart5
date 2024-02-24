@@ -19,10 +19,10 @@ addTask.addEventListener('click', function(){
     li.textContent = taskText;
     task.appendChild(li);
 
-    const checkButton = createButton('check', '<i class="fa-solid fa-check"></i>', 'orange');
+    const checkButton = createButton('check', '<i class="fas fa-check"></i>', 'orange');
     task.appendChild(checkButton);
     
-    const deleteButton = createButton('delete', '<i class="fa-solid fa-trash-can"></i>', 'red');
+    const deleteButton = createButton('delete', '<i class="fas fa-trash-alt"></i>', 'red');
     task.appendChild(deleteButton);
 
     // Append task to task container
